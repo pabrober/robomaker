@@ -1,3 +1,4 @@
+<!-- incluye todas las dependencias de la aplicacion robot-->
 <?xml version="1.0"?>
 <package format="2">
   <name>robot_app</name>

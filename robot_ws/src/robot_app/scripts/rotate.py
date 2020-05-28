@@ -1,3 +1,5 @@
+#nodo de ejemplo que hace girar el robot
+
 #!/usr/bin/env python
 
 import rospy

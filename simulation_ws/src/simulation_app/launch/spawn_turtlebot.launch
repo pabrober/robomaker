@@ -1,3 +1,4 @@
+<!-- se genera un turtlebot en la simulacion -->
 <launch>
   <!--  variable de entorno -->
   <arg name="model" default="$(optenv TURTLEBOT3_MODEL waffle_pi)" doc="model type [burger, waffle, waffle_pi]"/>

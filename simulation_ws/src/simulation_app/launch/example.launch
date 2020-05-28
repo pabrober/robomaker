@@ -1,3 +1,5 @@
+<!-- carga el mundo simulado con un turtlebot -->
+
 <launch>
   <arg name="gui" default="false"/>
 

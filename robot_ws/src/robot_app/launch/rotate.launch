@@ -1,3 +1,5 @@
+<!-- este archivo configura el nodo inicial rotate.py -->
+
 <launch>
   <arg name="use_sim_time" default="true"/>
   <param name="use_sim_time" value="$(arg use_sim_time)"/>

@@ -1,4 +1,5 @@
 ################################################################################
+#archivo make propio de ros, se puede entender como la entrada al sistema de compilacion 
 # establecer la version minima requerida del cmake (compilacion) y opciones de compilacion
 ################################################################################
 cmake_minimum_required(VERSION 2.8.3)
