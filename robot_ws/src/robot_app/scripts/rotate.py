@@ -2,11 +2,16 @@
 
 #!/usr/bin/env python
 
+#libreria de ros
 import rospy
+
+
 from geometry_msgs.msg import Twist
 
+#creamos clase rotar
 class Rotator():
     def __init__(self):
+        #esto es un  publisher
         self._cmd_pub = rospy.Publisher('/cmd_vel', Twist, queue_size=1)
 
     def rotate_forever(self):
@@ -19,7 +24,7 @@ class Rotator():
             rospy.loginfo("Rotating robot: %s", self.twist)
             r.sleep()
 
-
+#funcion principal
 def main():
     rospy.init_node('rotate')
     try:
@@ -28,5 +33,6 @@ def main():
     except rospy.ROSInterruptException:
         pass
 
+#se crea un punto de entrada 
 if __name__ == '__main__':
     main()
